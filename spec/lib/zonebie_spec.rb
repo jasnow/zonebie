@@ -3,18 +3,18 @@ require "spec_helper"
 describe Zonebie do
   describe "#backend" do
     it "defaults to the activesupport backend in the presence of activesupport" do
-      Zonebie.backend.name.should == :activesupport
+      expect(Zonebie.backend.name).to eq(:activesupport)
     end
 
     it "allows setting the backend to tzinfo" do
       Zonebie.backend = :tzinfo
-      Zonebie.backend.name.should == :tzinfo
+      expect(Zonebie.backend.name).to eq(:tzinfo)
     end
 
     it "defaults to tzinfo in the absense of activesupport" do
       Zonebie::Backends::ActiveSupport.stubs(:usable?).returns(false)
 
-      Zonebie.backend.name.should == :tzinfo
+      expect(Zonebie.backend.name).to eq(:tzinfo)
     end
 
     it "does not allow setting the backend to an unsupported value" do
@@ -91,7 +91,7 @@ describe Zonebie do
     end
 
     it "returns a random timezone" do
-      Zonebie.random_timezone.should == "Eastern Time (US & Canada)"
+      expect(Zonebie.random_timezone).to eq("Eastern Time (US & Canada)")
     end
   end
 end
