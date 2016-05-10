@@ -8,6 +8,6 @@ if RUBY_VERSION <= '1.9.2'
 end
 
 platforms :rbx do
-  gem 'rubysl', '~> 2.0'
+  gem 'rubysl'
   gem 'rubinius-developer_tools'
 end
