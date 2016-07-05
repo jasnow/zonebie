@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gemspec
 
 if RUBY_VERSION <= '1.9.2'
-  gem 'activesupport', '>=2.3', '<4.1'
+  gem 'activesupport', '>=2.3', '<= 4.1'
 end
 
 platforms :rbx do
