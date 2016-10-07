@@ -34,7 +34,7 @@ GEM
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
     rubinius-coverage (2.1)
-    rubinius-debugger (2.5)
+    rubinius-debugger (2.6)
     rubinius-developer_tools (2.0.0)
       rubinius-coverage (~> 2.0)
       rubinius-debugger (~> 2.0)
