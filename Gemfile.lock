@@ -218,7 +218,7 @@ GEM
     rubysl-set (2.0.1)
     rubysl-shellwords (2.0.0)
     rubysl-singleton (2.0.0)
-    rubysl-socket (2.2)
+    rubysl-socket (2.2.1)
       rubysl-fcntl (~> 2.0)
     rubysl-stringio (2.1.0)
     rubysl-strscan (2.0.0)
@@ -263,4 +263,4 @@ DEPENDENCIES
   zonebie!
 
 BUNDLED WITH
-   1.14.3
+   1.14.4
