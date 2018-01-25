@@ -198,7 +198,7 @@ GEM
     rubysl-observer (2.0.0)
     rubysl-open-uri (2.0.0)
     rubysl-open3 (2.0.0)
-    rubysl-openssl (2.9)
+    rubysl-openssl (2.10)
     rubysl-optparse (2.0.1)
       rubysl-shellwords (~> 2.0)
     rubysl-ostruct (2.1.0)
@@ -246,7 +246,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2017.3)
+    tzinfo-data (1.2018.3)
       tzinfo (>= 1.0.0)
 
 PLATFORMS
