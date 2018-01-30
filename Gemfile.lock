@@ -33,7 +33,7 @@ GEM
     rspec-mocks (3.7.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
-    rspec-support (3.7.0)
+    rspec-support (3.7.1)
     rubinius-coverage (2.1)
     rubinius-debugger (2.6)
     rubinius-developer_tools (2.0.0)
