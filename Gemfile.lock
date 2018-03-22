@@ -20,7 +20,7 @@ GEM
     minitest (5.11.3)
     mocha (1.4.0)
       metaclass (~> 0.0.1)
-    rake (12.3.0)
+    rake (12.3.1)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
