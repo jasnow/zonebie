@@ -221,7 +221,7 @@ GEM
     rubysl-singleton (2.0.0)
     rubysl-socket (2.2.1)
       rubysl-fcntl (~> 2.0)
-    rubysl-stringio (2.2)
+    rubysl-stringio (2.3)
     rubysl-strscan (2.0.0)
     rubysl-sync (2.0.0)
     rubysl-syslog (2.1.0)
@@ -246,7 +246,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2018.4)
+    tzinfo-data (1.2018.5)
       tzinfo (>= 1.0.0)
 
 PLATFORMS
