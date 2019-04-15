@@ -13,4 +13,3 @@ rvm:
   - rbx-2
 
 cache: bundler
-sudo: false
